@@ -1,0 +1,5 @@
+hello world!
+this is a text file to test the word counting program in c.
+there are several words and several lines in this file.
+it was made using GNU nano.
+thank you very much!
