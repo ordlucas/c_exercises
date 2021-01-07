@@ -13,9 +13,9 @@ int main(void) {
 }
 
 unsigned setbits(unsigned x, int p, int n, unsigned y) {
-    /* get rightmost n digits of y */
-    unsigned y_p = (y & ~(~0 << n)) << (p - n + 1);
-    return x | y_p;
+    unsigned y_p = (y & ~(~0 << n)) << (p - n + 1);     
+    unsigned x_p = x & ~(~(0 << n) << (p + 1 - n));
+    return x_p | y_p;
 }
 
 unsigned getbits(unsigned x, int p, int n) {
