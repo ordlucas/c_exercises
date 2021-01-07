@@ -1,7 +1,0 @@
-hello world!
-this is a text file to test the word counting program in c.
-this line is longer than eighty characters, achieved by typing characters
-there are several words and several lines in this file.
-it was made using GNU nano.
-GNU nano is a very basic text editor usable from bash, and it is much easier to use than emacs
-thank you very much!
