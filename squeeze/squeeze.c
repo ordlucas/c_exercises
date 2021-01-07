@@ -1,3 +1,6 @@
+/* Exercise 2-4 from K&R. */
+/* AUTHOR: ord */
+
 #include <stdio.h>
 
 void squeeze(char[], int);
